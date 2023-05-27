@@ -74,7 +74,11 @@ Twitter Trends Analysis: #advancehbdmaheshbabu
 The data consisted of a total of 302,595 tweets, with 83% of tweets having more likes than retweets. A total of 38,719 duplicate tweets were found, making up 13% of the total tweets. The data also showed that there were 9,921 distinct users and an average of 12 retweets per account. The average time gap between tweets was calculated to be 3,230 seconds. The data further showed that there were 12,923 quote tweets and 23,121 replies in total. 
 To better understand the data and its patterns, common users in the trends were also analyzed, revealing that only 4.08% of the users were common across different trends. The data visualization process allowed for a clear representation of these insights and facilitated better decision-making for this project. 
 
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/e8179013-1ae1-4f78-bf22-1e24e8edddaa)
 
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/8178e81f-f8cc-40a3-b588-dd21d6e5f9a4)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/2bfb6b46-ee24-47fe-9393-44e97007c871)
 
 # Twitter Trends Analysis: #Gobackmodi vs #Welcomemodi 
 During the Indian General Election in February 2019, two Twitter trends emerged, one in support of Modi with the hashtag #Welcomemodi, and the other against him with #Gobackmodi. Using data engineering and analytics techniques, data related to these two trends were extracted and processed to gain insights into user engagement and sentiment. 
