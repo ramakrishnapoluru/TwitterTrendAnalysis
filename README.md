@@ -64,8 +64,7 @@ In summary, this architecture allows efficient processing and analysis of large 
 
 ![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/6f643d14-1630-4404-959b-7a85eace2360)
 
-![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/6f643d14-1630-4404-959b-7a85eace2360)
-
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/3c96111d-dd60-4f1e-ba1c-4c348bd05623)
 
 
 
