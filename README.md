@@ -9,7 +9,8 @@ Social media platforms have become an integral part of our daily lives, and Twit
 
  # Data Collection 
 The data collection process for this project involved using the Twitter API to retrieve tweets for each of the 10 selected trends. The tweets were retrieved using specific search queries that included relevant hashtags, keywords, and timeframes. The data was collected in JSON format, which is the default format provided by the Twitter API. Each tweet was represented as a JSON object that contained various fields such as user information, date and time of the tweet, tweet content, and engagement metrics such as retweets and likes. 
-[Text Wrapping Break]
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/e4d1187a-3156-4cc2-a947-9ed363f1571b)
 
 3.1  Dataset Description 
 A detailed explanation of each column that was pulled during the data collection process: 
@@ -45,14 +46,36 @@ A detailed explanation of each column that was pulled during the data collection
 # Data Cleaning and Preprocessing 
 After loading all the datasets into one, some data cleaning and preprocessing on the twitter data was performed. First, missing values were checked in each column and dropped the 'Unnamed: 0' column. The 'date' column was then cast to a timestamp data type and dropped unwanted columns such as card, cashtags, coordinates, and more. Next, the missing values in numeric columns were filled with 0 and replaced empty strings with ‘None’ values. To prepare the text data for analysis, all text were converted to lowercase, leading/trailing spaces and duplicate whitespaces were removed and any remaining multiple whitespaces with single whitespaces were replaced. Overall, these data cleaning and preprocessing steps were important to ensure that the data was in a usable format for analysis. By removing unnecessary columns and filling missing values, the noise in the data was reduced and ensured that the analysis was based on a complete dataset. 
 
+
+
 # Project Architecture 
 The project started with the goal of analyzing Twitter data related to a particular hashtag to gain insights. To achieve this, it was decided that cloud-based architecture would be used to handle the large volume of data and the processing required. Snscrape and Sntwitter were first used. Then, TwitterSearchScraper was used to retrieve twitter data related to the hashtag and dump it into an S3 bucket in JSON format. S3 was chosen because it is a scalable and cost-effective way to store large volumes of unstructured data. Next, PySpark was used to perform data cleaning, analysis, and structuring of the data on AWS EMR. Then the cleaned data was stored in a structured form in Parquet format back in S3. Parquet was chosen because it is a columnar storage format that is optimized for performance and can handle large datasets efficiently. 
 Finally, the structured data from S3 was loaded into AWS Redshift, a cloud-based data warehousing solution. Redshift was chosen because it allows for high-speed querying and can handle large volumes of structured data efficiently. Then, AWS Quicksight was connected to Redshift to create an interactive dashboard that provides real-time insights into user sentiment and behavior related to the hashtag. 
 
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/ef63ef66-107d-411b-9b93-d993baab7fc0)
+
+In summary, this architecture allows efficient processing and analysis of large volumes of twitter data using cloud-based solutions. This then enables the gain of valuable insights into user behavior and sentiment related to the hashtag in real-time, which can be used for various business and marketing purposes. 
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/7b09dc6d-7790-4ae9-b337-4360a1ce78f8)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/27f57ced-6ad3-4fa9-96ef-b4fd4763e510)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/7e3b03e1-2ba7-47dd-9dac-48b7a02ce175)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/6f643d14-1630-4404-959b-7a85eace2360)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/6f643d14-1630-4404-959b-7a85eace2360)
+
+
+
+
 # Data Analysis and Dashboard 
+
 Twitter Trends Analysis: #advancehbdmaheshbabu 
 The data consisted of a total of 302,595 tweets, with 83% of tweets having more likes than retweets. A total of 38,719 duplicate tweets were found, making up 13% of the total tweets. The data also showed that there were 9,921 distinct users and an average of 12 retweets per account. The average time gap between tweets was calculated to be 3,230 seconds. The data further showed that there were 12,923 quote tweets and 23,121 replies in total. 
 To better understand the data and its patterns, common users in the trends were also analyzed, revealing that only 4.08% of the users were common across different trends. The data visualization process allowed for a clear representation of these insights and facilitated better decision-making for this project. 
+
+
 
 # Twitter Trends Analysis: #Gobackmodi vs #Welcomemodi 
 During the Indian General Election in February 2019, two Twitter trends emerged, one in support of Modi with the hashtag #Welcomemodi, and the other against him with #Gobackmodi. Using data engineering and analytics techniques, data related to these two trends were extracted and processed to gain insights into user engagement and sentiment. 
