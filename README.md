@@ -80,12 +80,14 @@ To better understand the data and its patterns, common users in the trends were 
 
 ![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/2bfb6b46-ee24-47fe-9393-44e97007c871)
 
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/3fb6b437-6f78-4d2b-9348-83caa475ed71)
+
 # Twitter Trends Analysis: #Gobackmodi vs #Welcomemodi 
 During the Indian General Election in February 2019, two Twitter trends emerged, one in support of Modi with the hashtag #Welcomemodi, and the other against him with #Gobackmodi. Using data engineering and analytics techniques, data related to these two trends were extracted and processed to gain insights into user engagement and sentiment. 
 For the anti-Modi campaign (#Gobackmodi), it was observed that a total of 57,202 tweets, 188,825 retweets, and 289,639 likes. Additionally, it was found that 18% of tweets had more retweets than likes, and 19% of tweets were duplicates. There were a total of 14,162 distinct users, with an average of four retweets per account and an average time gap between tweets of 2,248. Furthermore, there were 17,658 quote tweets and 24,039 replies, with only 2.86% common users in trends. 
 On the other hand, for the pro-Modi campaign (#Welcomemodi), 32,493 tweets were analyzed, 75,053 retweets, and 114,410 likes. Similarly, 18% of tweets had more retweets than likes, and 40% of tweets were duplicates. The number of distinct users was 5,992, with an average of three retweets per account and an average time gap between tweets of 455. 7,490 quote tweets and 10,014 replies, with 2.86% common users in trends were also found. 
 
-![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/3fb6b437-6f78-4d2b-9348-83caa475ed71)
+# The first two images show how the content is copy pasted by individuals
 
 ![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/4c728f2a-b282-4be5-9c12-368755bad408)
 
