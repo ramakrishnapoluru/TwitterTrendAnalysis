@@ -85,6 +85,18 @@ During the Indian General Election in February 2019, two Twitter trends emerged,
 For the anti-Modi campaign (#Gobackmodi), it was observed that a total of 57,202 tweets, 188,825 retweets, and 289,639 likes. Additionally, it was found that 18% of tweets had more retweets than likes, and 19% of tweets were duplicates. There were a total of 14,162 distinct users, with an average of four retweets per account and an average time gap between tweets of 2,248. Furthermore, there were 17,658 quote tweets and 24,039 replies, with only 2.86% common users in trends. 
 On the other hand, for the pro-Modi campaign (#Welcomemodi), 32,493 tweets were analyzed, 75,053 retweets, and 114,410 likes. Similarly, 18% of tweets had more retweets than likes, and 40% of tweets were duplicates. The number of distinct users was 5,992, with an average of three retweets per account and an average time gap between tweets of 455. 7,490 quote tweets and 10,014 replies, with 2.86% common users in trends were also found. 
 
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/3fb6b437-6f78-4d2b-9348-83caa475ed71)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/4c728f2a-b282-4be5-9c12-368755bad408)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/eaa38fbb-064d-49c0-bcf3-3d688024172c)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/4ffd4161-1d5e-4530-9b33-3805bc1ae77a)
+
+![Archirechture!](https://github.com/ramakrishnapoluru/USAH1BAnalysis/assets/119472036/61b13126-3b45-4a4a-9d0a-f9b489edcd6e)
+
+Overall, this data visualization and analysis allowed the identification of key patterns and insights into user engagement and sentiment in these two twitter trends. 
+
 # Conclusion and Future Work 
 # Conclusion 
 In conclusion, this project on uncovering coordinated campaigns by analyzing artificial inflation of trend popularity on Twitter has successfully addressed the research questions and achieved its objectives. Through the analysis of a dataset of over 300,000 tweets, the presence of coordinated campaigns that artificially inflated trend popularity on Twitter were identified. Several interesting trends and patterns in the data, such as the high percentage of likes compared to retweets and the significant number of duplicate tweets were also observed. 
